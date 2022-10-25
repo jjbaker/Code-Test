@@ -1,0 +1,26 @@
+.header {
+	text-align: center;
+}
+#results {
+	display: flex;
+}
+#userTable {
+	align-self: flex-start; 
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-right: 20px;
+}
+#postsDiv {
+	align-self: flex-start;
+	width: 100%
+}
+#postsTable {
+	width: 100%
+}
+#userTable td{
+	border: 1px solid black;
+	padding: 10px;
+}
+.selected {
+	background: lightgrey;
+}
